@@ -9,12 +9,16 @@ import { UserService } from '../user.service';
 })
 export class UsersComponent implements OnInit {
 
-  user: User;
+  user: User = <User>{};
 
   constructor(private userService: UserService) { }
 
   ngOnInit() {
-    this.user = this.userService.getUserById(11);
+    this.userService.getUserById(12)
+      .subscribe((data: User) => { 
+        console.log(data);
+        this.user = data;
+      });
   }
 
 }
