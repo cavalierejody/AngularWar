@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
+Example API from https://reqres.in/ 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -30,11 +32,11 @@ ng build --prod
 grunt war
 ```
 
+After deployment on wildfly, the application is reachable from: 
+
+http://localhost:8080/webapp/my-app/index.html
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-
-## Sample of consuming REST-Api
-
-https://reqres.in/
