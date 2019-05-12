@@ -1,6 +1,12 @@
 <div>
+  Id:
+  <input type="number" [(ngModel)]="selectedId"/>
+  <button (click)="showSelectedUser(selectedId)">Search</button>
+</div>
+
+<div *ngIf="userFound">
   <h2>{{user.first_name | uppercase}} {{user.last_name| uppercase}}</h2>
+  <img width="150" alt="avatar" [src]="user.avatar">
   <div><span>id: </span>{{user.id}}</div>
   <div><span>email: </span>{{user.email}}</div>
-  <div><span>avatar: </span>{{user.avatar}}</div>
 </div>
