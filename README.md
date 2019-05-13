@@ -36,6 +36,12 @@ After deployment on wildfly, the application is reachable from:
 
 http://localhost:8080/webapp/my-app/index.html
 
+## Try it!
+
+The project is automatically deployed to:
+
+https://loving-hamilton-7bc26e.netlify.com/my-app/
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
