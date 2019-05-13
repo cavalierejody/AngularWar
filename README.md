@@ -40,7 +40,7 @@ http://localhost:8080/webapp/my-app/index.html
 
 The project is automatically deployed to:
 
-https://loving-hamilton-7bc26e.netlify.com/my-app/
+https://angular-war.netlify.com/my-app/
 
 ## Further help
 
